@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Faster+One|Frijole');
+
+
+
+.container {
+    border: 50px solid rgb(63, 16, 112);
+    display: flex;
+    justify-content : space-evenly;
+    align-content: flex-end;
+    flex-wrap: wrap;
+    align-items: baseline;
+    background-color: yellow;
+    
+}
+
+.title {
+    border: 10px solid rgb(63, 16, 112);
+    font-style: oblique;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 1.5em;
+}
+
+.content {
+    font-weight: bolder;
+    font-size: 1em;
+    font-style: oblique;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.fontheader {
+    padding-top: 30px;
+    font-size: 4em;
+    font-family: 'Faster One', cursive;
+    /* font-family: 'Frijole', cursive; */
+    color: rgb(63, 16, 112);
+    background-color: yellow;
+}
